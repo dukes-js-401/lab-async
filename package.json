@@ -1,0 +1,25 @@
+{
+  "name": "lab-async",
+  "version": "1.0.0",
+  "description": "### Author: Student/Group Name",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dukes-js-401/lab-async.git"
+  },
+  "author": "Gregory",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dukes-js-401/lab-async/issues"
+  },
+  "homepage": "https://github.com/dukes-js-401/lab-async#readme",
+  "dependencies": {
+    "jest": "^24.5.0"
+  }
+}
