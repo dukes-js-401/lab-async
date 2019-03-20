@@ -2,6 +2,7 @@
 
 let fs = require('fs');
 let file = `${__dirname}/files/test.txt`;
+let cliFile = process.argv[2];
 
   let readTheStupidFile = (err,data) => {
     if (err) {
@@ -10,5 +11,7 @@ let file = `${__dirname}/files/test.txt`;
     console.log(data.toString());
   };
   
+  process.argv.forEach((val, index) => {
+  });
 
-fs.readFile(file, readTheStupidFile);
+fs.readFile(cliFile, readTheStupidFile);
