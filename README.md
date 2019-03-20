@@ -5,9 +5,8 @@
 
 ### Links and Resources
 * [repo](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [travis](https://www.travis-ci.com/dukes-js-401/lab-async)
+* [heroku](https://frozen-inlet-65453.herokuapp.com/)
 
 #### Documentation
 * [swagger](http://xyz.com) (API assignments only)
