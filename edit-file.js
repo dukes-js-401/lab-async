@@ -2,7 +2,7 @@
 
 let fs = require('fs');
 let file = `${__dirname}/files/test.txt`;
-let newWords = 'the brown dog ate the stupid fox'
+let newWords = ' ,But the brown dog eats the stupid fox'
 let cliFile = process.argv[2];
 
 //code for bringing in the file name from the command line found at https://nodejs.org/docs/latest/api/process.html#process_process_argv
@@ -14,7 +14,7 @@ let cliFile = process.argv[2];
       throw err;
     }
     console.log(data.toString());
-    fs.writeFile(cliFile, newWords, (err) => {
+    fs.appendFile(cliFile, newWords, (err) => {
         if (err) {
             throw err;
         }
